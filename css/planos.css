@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* === Section Planos === */
+.planos {
+    height: 675px;
+    background-color: #f8f8f8;
+}
+
+.planos .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.planos .container h1 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: -120px;
+}
+
+.planos .container h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 9rem;
+    color: #101010;
+    opacity: 0.15;
+    padding-top: 20px;
+}
+
+.planos .container .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.planos .container .cards .card1 {
+    width: 400px;
+    display: flex;
+    z-index: 1;
+}
+
+.planos .container .cards .card1 .tab-plan1 {
+    width: 360px;
+    height: 355px;
+    border: 5px solid #BEC3C7;
+    background-color: #ffffff;
+    margin-left: -225px;
+    margin-top: 0px;
+}
+
+.planos .container .cards .card1 .tab-fundo-plan1 {
+    width: 265px;
+    height: 275px;
+    background-color: #BEC3C7;
+    border-radius: 10px 0px 10px 10px;
+    margin-top: 128px;
+}
+
+.planos .container .cards .card1 .tab-fundo-plan1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #101010;
+    margin-top: 235px;
+}
+
+.planos .container .cards .card1 .tab-plan1 .dias-treino p {
+    width: 290px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.planos .container .cards .card1 .tab-plan1 .moeda p {
+    margin: 50px auto 0px 25px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+}
+
+.planos .container .cards .card1 .tab-plan1 .valor p {
+    margin: -35px auto 0px 73px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.3rem;
+    line-height: 99px;
+}
+
+.planos .container .cards .card1 .tab-plan1 .decimal p {
+    margin: -40px auto 0px 198px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+}
+
+.planos .container .cards .card1 .tab-plan1 .mes p {
+    margin: -32px auto 0px 258px; 
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 31px;
+}
+
+.planos .container .cards .card2 {
+    width: 400px;
+    display: flex;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.planos .container .cards .card2 .tab-plan2 {
+    width: 360px;
+    height: 355px;
+    border: 5px solid #F7CF47;
+    background-color: #ffffff;
+    margin-top: 48px;
+    margin-left: -400px;
+}
+
+.planos .container .cards .card2 .tab-fundo-plan2 {
+    width: 265px;
+    height: 275px;
+    background: #F7CF47;
+    border-radius: 10px 10px 10px 0px;
+    margin-left: 135px;
+}
+
+.planos .container .cards .card2 .tab-fundo-plan2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #101010;
+    margin-top: 11px;
+}
+
+.planos .container .cards .card2 .tab-plan2 .dias-treino p {
+    width: 290px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.planos .container .cards .card2 .tab-plan2 .moeda p {
+    margin: 50px auto 0px 32px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+}
+
+.planos .container .cards .card2 .tab-plan2 .valor p {
+    margin: -35px 0px 0px 79px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.3rem;
+    line-height: 99px;
+}
+
+.planos .container .cards .card2 .tab-plan2 .decimal p {
+    margin: -40px 0px 0px 198px; 
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 31px;
+}
+
+.planos .container .cards .card2 .tab-plan2 .mes p {
+    margin: -32px 0px 0px 258px; 
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 31px;
+}
+
+.planos .container .duvidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #101010;
+    text-decoration: none;
+    width: 240px;
+    height: 60px;
+    background-color: #F7CF47;
+    border-radius: 10px;
+    border: 3px solid #101010;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.planos .container .duvidas:hover {
+    filter: drop-shadow(0px 1px 3px rgba(0,0,0,.6));
+    margin-top: 29px;
+    
+}
+
+.planos .container .duvidas img {
+    width: 28px;
+}

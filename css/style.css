@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* === Fontes utilizadas === */
+@font-face {
+    font-family: 'GothamPro';
+    src: url("../fonts/Gotham\ Pro\ Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'GothamPro';
+    src: url("../fonts/Gotham\ Pro\ Medium.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+/* === Fim === */
+
+
+/* === Parâmetros iniciais === */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* A cada 1rem será considerado 10px */
+}
+
+html, body {
+  height: 100vh;
+  background-color: #F7CF47;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+.txtwhite {
+    color: #ffffff;
+}
+
+.txtblack {
+    color: #101010;
+}
+
+.txtyellow {
+    color: #F7CF47;
+}
+/* === Fim === */
+
+
+/* === Animação (Surgimentos) === */
+/* Utiliza JS */
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+}
+
+[data-anime="bottom"] {
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+/* === Fim === */
+
+
+/* === Animação (Flutuar) === */
+@keyframes flutuar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(calc(100vh - 500px));
+    }
+}
+/* === Fim === */

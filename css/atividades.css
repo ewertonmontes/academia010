@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* === Section Atividades === */
+.atividades {
+    background-color: #101010;
+    height: 600px;
+}
+
+.atividades .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.atividades .container h1 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: -120px;
+}
+
+.atividades .container h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 9rem;
+    color: #FFFFFF;
+    opacity: 0.15;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.atividades .container .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.atividades .container .cards .card1 {
+    display: flex;
+    z-index: 1;
+}
+
+.atividades .container .cards .card1 img {
+    width: 360px;
+    border: 5px solid #F7CF47;
+    margin-left: -225px;
+    margin-top: 0px;
+}
+
+.atividades .container .cards .card1 .tab-fundo-ativ1 {
+    width: 265px;
+    height: 275px;
+    background: #F7CF47;
+    border-radius: 10px 0px 10px 10px;
+    margin-top: 128px;
+}
+
+.atividades .container .cards .card1 .tab-fundo-ativ1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #101010;
+    margin-top: 235px;
+}
+
+.atividades .container .cards .card2 {
+    display: flex;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.atividades .container .cards .card2 img {
+    width: 360px;
+    border: 5px solid #F7CF47;
+    margin-top: 45px;
+    margin-left: -400px;
+}
+
+.atividades .container .cards .card2 .tab-fundo-ativ2 {
+    width: 265px;
+    height: 275px;
+    background: #F7CF47;
+    border-radius: 10px 10px 10px 0px;
+    margin-left: 135px;
+}
+
+.atividades .container .cards .card2 .tab-fundo-ativ2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #101010;
+    margin-top: 11px;
+}
